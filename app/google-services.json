@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34496327830",
+    "project_id": "biva-library-007",
+    "storage_bucket": "biva-library-007.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34496327830:android:11196b7ebf140f390e52b7",
+        "android_client_info": {
+          "package_name": "com.biva.library.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHsIYQkLxea72MiFgUu0F_mz66EEvfxXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
