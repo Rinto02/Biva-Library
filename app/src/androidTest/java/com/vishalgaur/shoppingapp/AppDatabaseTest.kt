@@ -1,15 +1,14 @@
-package com.vishalgaur.shoppingapp
+package com.biva.library.app
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.room.Room
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.local.ProductsDao
-import com.vishalgaur.shoppingapp.data.source.local.ShoppingAppDatabase
-import com.vishalgaur.shoppingapp.data.source.local.UserDao
+import com.biva.library.app.data.Product
+import com.biva.library.app.UserData
+import com.biva.library.app.data.source.local.ProductsDao
+import com.biva.library.app.data.source.local.UserDao
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.Matchers.*
 import org.junit.After
@@ -109,9 +108,9 @@ class AppDatabaseTest {
 	fun insertClearUser_returnsNull() {
 		val user = UserData(
 			"sdjm43892yfh948ehod",
-			"Vishal",
-			"+919999988888",
-			"vishal@somemail.com",
+			"Rinto",
+			"+88019999988888",
+			"rinto@somemail.com",
 			"dh94328hd",
 			emptyList(),
 			emptyList(),

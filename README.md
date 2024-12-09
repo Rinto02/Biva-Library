@@ -1,4 +1,4 @@
-# Shopping Android App
+# Biva Library App
 An e-commerce android application written in Kotlin where users can sell and buy products. 
 
 
@@ -41,7 +41,7 @@ Some other features are as following:
 
 Clone this repository and import into Android Studio
 ```
-git clone https://github.com/i-vishi/shopping-android-app.git
+git clone https://github.com/rinto02/shopping-android-app.git
 ```
 
 ### Configuration

@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp
+package com.biva.library.app
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer

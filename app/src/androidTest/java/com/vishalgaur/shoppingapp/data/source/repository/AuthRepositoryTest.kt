@@ -1,16 +1,16 @@
-package com.vishalgaur.shoppingapp.data.source.repository
+package com.biva.library.app.data.source.repository
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
 import androidx.test.internal.runner.junit4.statement.UiThreadStatement.runOnUiThread
 import com.google.firebase.FirebaseApp
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.FakeUserDataSource
-import com.vishalgaur.shoppingapp.data.utils.SignUpErrors
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.source.FakeUserDataSource
+import com.biva.library.app.data.utils.SignUpErrors
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.hamcrest.Matchers.`is`
@@ -24,7 +24,7 @@ class AuthRepositoryTest {
 	private val userSeller = UserData(
 		"weoifhwenf29385",
 		"Seller Name",
-		"+919999990000",
+		"+8801999999000",
 		"somemail@mail.com",
 		"12345",
 		emptyList(),
@@ -35,7 +35,7 @@ class AuthRepositoryTest {
 	private val userCustomer = UserData(
 		"dwoeihwjklvn48329752",
 		"Customer Name",
-		"+919090909090",
+		"+88019090909090",
 		"somemail1232@mail.com",
 		"12345",
 		emptyList(),
@@ -96,11 +96,11 @@ class AuthRepositoryTest {
 
 	@Test
 	fun checkEmailAndMobile_existingEmail_returnsError() {
-		authRemoteDataSource.updateEmailsAndMobiles("mail123@mail.com", "+919999988888")
+		authRemoteDataSource.updateEmailsAndMobiles("mail123@mail.com", "+88019999988888")
 		runOnUiThread {
 			runBlockingTest {
 				val result =
-					authRepository.checkEmailAndMobile("mail123@mail.com", "+919685", context)
+					authRepository.checkEmailAndMobile("mail123@mail.com", "+8801919685", context)
 				assertThat(result, `is`(SignUpErrors.SERR))
 			}
 		}
@@ -108,11 +108,11 @@ class AuthRepositoryTest {
 
 	@Test
 	fun checkEmailAndMobile_existingMobile_returnsError() {
-		authRemoteDataSource.updateEmailsAndMobiles("mail123@mail.com", "+919999988888")
+		authRemoteDataSource.updateEmailsAndMobiles("mail123@mail.com", "+88019999988888")
 		runOnUiThread {
 			runBlockingTest {
 				val result =
-					authRepository.checkEmailAndMobile("mail999@mail.com", "+919999988888", context)
+					authRepository.checkEmailAndMobile("mail999@mail.com", "+88019999988888", context)
 				assertThat(result, `is`(SignUpErrors.SERR))
 			}
 		}
@@ -120,11 +120,11 @@ class AuthRepositoryTest {
 
 	@Test
 	fun checkEmailAndMobile_existingMobileAndEmail_returnsError() {
-		authRemoteDataSource.updateEmailsAndMobiles("mail123@mail.com", "+919999988888")
+		authRemoteDataSource.updateEmailsAndMobiles("mail123@mail.com", "+88019999988888")
 		runOnUiThread {
 			runBlockingTest {
 				val result =
-					authRepository.checkEmailAndMobile("mail123@mail.com", "+919999988888", context)
+					authRepository.checkEmailAndMobile("mail123@mail.com", "+88019999988888", context)
 				assertThat(result, `is`(SignUpErrors.SERR))
 			}
 		}
@@ -132,13 +132,13 @@ class AuthRepositoryTest {
 
 	@Test
 	fun checkEmailAndMobile_newData_returnsError() {
-		authRemoteDataSource.updateEmailsAndMobiles("mail123@mail.com", "+919999988888")
+		authRemoteDataSource.updateEmailsAndMobiles("mail123@mail.com", "+88019999988888")
 		runOnUiThread {
 			runBlockingTest {
 				val result =
 					authRepository.checkEmailAndMobile(
 						"somemail123@mail.com",
-						"+919999977777",
+						"+88019999977777",
 						context
 					)
 				assertThat(result, `is`(SignUpErrors.NONE))
@@ -154,7 +154,7 @@ class AuthRepositoryTest {
 
 	@Test
 	fun checkLogin_newCredentials_returnsNull() = runBlockingTest {
-		val result = authRepository.checkLogin("+919879879879", "sdygt4")
+		val result = authRepository.checkLogin("+88019879879879", "sdygt4")
 		assertThat(result, `is`(nullValue()))
 	}
 
@@ -233,7 +233,7 @@ class AuthRepositoryTest {
 			"kanopwe",
 			"up",
 			"209876",
-			"+919999988888"
+			"+88019999988888"
 		)
 		authRepository.insertAddress(address, userCustomer.userId)
 		val res = authRepository.getAddressesByUserId(userCustomer.userId)
@@ -257,7 +257,7 @@ class AuthRepositoryTest {
 			"kanopwe",
 			"up",
 			"209876",
-			"+919999988888"
+			"+88019999988888"
 		)
 		authRepository.insertAddress(address, userCustomer.userId)
 		authRepository.deleteAddressById(address.addressId, userCustomer.userId)
@@ -282,7 +282,7 @@ class AuthRepositoryTest {
 			"kanopwe",
 			"up",
 			"209876",
-			"+919999988888"
+			"+88019999988888"
 		)
 		val newAddress = UserData.Address(
 			"id123-add",
@@ -294,7 +294,7 @@ class AuthRepositoryTest {
 			"kanopwe",
 			"up",
 			"209876",
-			"+919999988888"
+			"+88019999988888"
 		)
 		authRepository.insertAddress(address, userCustomer.userId)
 		authRepository.updateAddress(newAddress, userCustomer.userId)

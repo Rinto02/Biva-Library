@@ -1,16 +1,16 @@
-package com.vishalgaur.shoppingapp.data.source
+package com.biva.library.app.data.source
 
 import android.net.Uri
 import androidx.core.net.toUri
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
-import com.vishalgaur.shoppingapp.data.source.repository.ProductsRepoInterface
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
+import com.biva.library.app.data.source.repository.ProductsRepoInterface
+import com.biva.library.app.data.utils.StoreDataStatus
 import kotlinx.coroutines.runBlocking
 import java.util.*
 import kotlin.collections.LinkedHashMap

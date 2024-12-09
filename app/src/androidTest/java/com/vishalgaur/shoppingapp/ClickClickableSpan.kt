@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp
+package com.biva.library.app
 
 import android.text.SpannableString
 import android.text.style.ClickableSpan

@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp
+package com.biva.library.app
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
