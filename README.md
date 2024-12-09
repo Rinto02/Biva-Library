@@ -41,7 +41,7 @@ Some other features are as following:
 
 Clone this repository and import into Android Studio
 ```
-git clone https://github.com/rinto02/shopping-android-app.git
+git clone https://github.com/rinto02/biva-library.git
 ```
 
 ### Configuration
@@ -54,7 +54,7 @@ git clone https://github.com/rinto02/shopping-android-app.git
 - Do not forget to enable app verification for your firebase project. Follow instructions [here (Enable app verification)](https://firebase.google.com/docs/auth/android/phone-auth#enable-app-verification) to enable app verification. Add both SHA-1 and SHA-256 fingerprints.
 
 Tried everything but still not able to explore the app due to OTP errors? Don't worry, you can by-pass the OTP screen and explore the app.
-- Go to `app/src/main/java/com/vishalgaur/shoppingapp/Utils.kt` file.
+- Go to `app/src/main/java/com/biva/library/app/Utils.kt` file.
 - Change the return value for function `shouldBypassOTPValidation()` to `true`.
 - You are good to go now. Just run the app and explore.
 - And take your time to setup the OTP verification. :wink:
@@ -69,4 +69,4 @@ Tried everything but still not able to explore the app due to OTP errors? Don't 
 
 ---
 
-<p align="center"> Made with :blue_heart: by <a href="https://github.com/i-vishi">Vishal Gaur</a></p>
+<p align="center"> Made with :blue_heart: by <a href="https://github.com/rinto02">Rinto Khan</a></p>
