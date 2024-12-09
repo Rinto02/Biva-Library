@@ -1,116 +1,116 @@
 plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-    id 'kotlin-kapt'
-    id 'com.google.gms.google-services'
-    id 'kotlin-parcelize'
+id 'com.android.application'
+id 'kotlin-android'
+id 'kotlin-kapt'
+id 'com.google.gms.google-services'
+id 'kotlin-parcelize'
 }
 
 android {
-    compileSdkVersion 33
-    buildToolsVersion "33.0.0"
+compileSdkVersion 33
+buildToolsVersion "33.0.0"
 
-    defaultConfig {
-        applicationId "com.biva.library.app"
-        minSdkVersion 23
-        targetSdkVersion 33
-        versionCode 1
-        versionName "1.0"
+defaultConfig {
+applicationId "com.biva.library.app"
+minSdkVersion 23
+targetSdkVersion 33
+versionCode 1
+versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
+testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+}
 
-    buildFeatures {
-        viewBinding true
-    }
+buildFeatures {
+viewBinding true
+}
 
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
+buildTypes {
+release {
+minifyEnabled false
+proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+}
+}
+compileOptions {
+sourceCompatibility JavaVersion.VERSION_1_8
+targetCompatibility JavaVersion.VERSION_1_8
+}
+kotlinOptions {
+jvmTarget = '1.8'
+}
 
-    packagingOptions {
-        exclude 'META-INF/AL2.0'
-        exclude 'META-INF/LGPL2.1'
-    }
+packagingOptions {
+exclude 'META-INF/AL2.0'
+exclude 'META-INF/LGPL2.1'
+}
 }
 
 dependencies {
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    // Updated Kotlin Coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4'
+// Updated Kotlin Coroutines
+implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4'
 
-    implementation 'androidx.core:core-ktx:1.9.0'
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'com.google.android.material:material:1.8.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+implementation 'androidx.core:core-ktx:1.9.0'
+implementation 'androidx.appcompat:appcompat:1.5.1'
+implementation 'com.google.android.material:material:1.8.0'
+implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
 
-    // RecyclerView
-    implementation "androidx.recyclerview:recyclerview:1.3.0"
+// RecyclerView
+implementation "androidx.recyclerview:recyclerview:1.3.0"
 
-    // Room
-    implementation "androidx.room:room-runtime:$room_version"
-    implementation "androidx.room:room-ktx:$room_version"
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    kapt "androidx.room:room-compiler:$room_version"
+// Room
+implementation "androidx.room:room-runtime:$room_version"
+implementation "androidx.room:room-ktx:$room_version"
+implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+kapt "androidx.room:room-compiler:$room_version"
 
-    // ViewModel and LiveData
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
-    implementation 'com.google.firebase:firebase-analytics-ktx:21.1.1'
-    implementation 'com.google.firebase:firebase-auth-ktx:21.2.0'
+// ViewModel and LiveData
+implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+implementation 'com.google.firebase:firebase-analytics-ktx:21.1.1'
+implementation 'com.google.firebase:firebase-auth-ktx:21.2.0'
 
-    // Glide
-    implementation "com.github.bumptech.glide:glide:$glide_version"
+// Glide
+implementation "com.github.bumptech.glide:glide:$glide_version"
 
-    // Firebase
-    implementation platform('com.google.firebase:firebase-bom:33.7.0')
-    implementation 'com.google.firebase:firebase-firestore-ktx:24.1.0'
-    implementation 'com.google.firebase:firebase-storage-ktx:20.1.0'
+// Firebase
+implementation platform('com.google.firebase:firebase-bom:33.7.0')
+implementation 'com.google.firebase:firebase-firestore-ktx:24.1.0'
+implementation 'com.google.firebase:firebase-storage-ktx:20.1.0'
 
-    // Testing
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation "androidx.test.ext:junit-ktx:1.1.3"
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+// Testing
+testImplementation 'junit:junit:4.13.2'
+androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+androidTestImplementation "androidx.test.ext:junit-ktx:1.1.3"
+androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    // AndroidJUnitRunner and JUnit Rules
-    androidTestImplementation 'androidx.test:runner:1.4.0'
-    androidTestImplementation 'androidx.test:rules:1.4.0'
+// AndroidJUnitRunner and JUnit Rules
+androidTestImplementation 'androidx.test:runner:1.4.0'
+androidTestImplementation 'androidx.test:rules:1.4.0'
 
-    // Espresso for intents
-    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.4.0'
+// Espresso for intents
+androidTestImplementation 'androidx.test.espresso:espresso-intents:3.4.0'
 
-    // Espresso for RecyclerView
-    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
+// Espresso for RecyclerView
+androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
 
-    // AndroidX Test - JVM testing
-    testImplementation "androidx.test.ext:junit-ktx:1.1.3"
-    testImplementation "androidx.arch.core:core-testing:2.1.0"
-    testImplementation "androidx.test:core-ktx:1.4.0"
+// AndroidX Test - JVM testing
+testImplementation "androidx.test.ext:junit-ktx:1.1.3"
+testImplementation "androidx.arch.core:core-testing:2.1.0"
+testImplementation "androidx.test:core-ktx:1.4.0"
 
-    testImplementation "org.robolectric:robolectric:4.9"
+testImplementation "org.robolectric:robolectric:4.9"
 
-    androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
+androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
 
-    // Testing Coroutines
-    androidTestImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4'
+// Testing Coroutines
+androidTestImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4'
 
-    // Fragment Testing
-    debugImplementation "androidx.fragment:fragment-testing:1.4.1"
+// Fragment Testing
+debugImplementation "androidx.fragment:fragment-testing:1.4.1"
 
-    // Navigation Testing
-    androidTestImplementation "androidx.navigation:navigation-testing:2.5.3"
+// Navigation Testing
+androidTestImplementation "androidx.navigation:navigation-testing:2.5.3"
 }
