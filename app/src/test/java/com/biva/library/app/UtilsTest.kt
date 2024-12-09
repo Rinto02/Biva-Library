@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp
+package com.biva.library.app
 
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.MatcherAssert.assertThat
@@ -16,9 +16,9 @@ class UtilsTest {
 
 	@Test
 	fun checkEmail_invalid_returnsFalse() {
-		val email1 = "vishalgaur"
-		val email2 = "vishalgaur.com"
-		val email3 = "vishalgaur@google"
+		val email1 = "bivalibrarybl"
+		val email2 = "bivalibrary.blogspot.com"
+		val email3 = "bivalibrarybl@google.com"
 		val result1 = isEmailValid(email1)
 		val result2 = isEmailValid(email2)
 		val result3 = isEmailValid(email3)
@@ -30,9 +30,9 @@ class UtilsTest {
 
 	@Test
 	fun checkEmail_valid_returnsTrue() {
-		val email1 = "    vishalgaur@google.com"
-		val email2 = "vishal123@gmail.co.in     "
-		val email3 = "rr.vishalgaur@gmail.com"
+		val email1 = "    bivalibrarybl@gmail.com"
+		val email2 = "rintokhan411@gmail.com     "
+		val email3 = "rintokhan418@gmail.com"
 		val result1 = isEmailValid(email1)
 		val result2 = isEmailValid(email2)
 		val result3 = isEmailValid(email3)
@@ -66,9 +66,9 @@ class UtilsTest {
 
 	@Test
 	fun checkPhone_valid_returnsTrue() {
-		val phone1 = "9876543210"
-		val phone2 = "    6985741526"
-		val phone3 = "8989895858   "
+		val phone1 = "01837060490"
+		val phone2 = "    01554203033"
+		val phone3 = "01999040204   "
 		val result1 = isPhoneValid(phone1)
 		val result2 = isPhoneValid(phone2)
 		val result3 = isPhoneValid(phone3)

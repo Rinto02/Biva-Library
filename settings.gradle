@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Shopping App"
+rootProject.name = "Biva Library"
