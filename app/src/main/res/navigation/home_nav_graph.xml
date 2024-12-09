@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.HomeFragment"
+        android:name="com.biva.library.app.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/addEditProductFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.AddEditProductFragment"
+        android:name="com.biva.library.app.ui.home.AddEditProductFragment"
         android:label="AddProductFragment"
         tools:layout="@layout/fragment_add_edit_product">
         <argument
@@ -45,7 +45,7 @@
     </fragment>
     <fragment
         android:id="@+id/productDetailsFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.ProductDetailsFragment"
+        android:name="com.biva.library.app.ui.home.ProductDetailsFragment"
         android:label="ProductDetailsFragment"
         tools:layout="@layout/fragment_product_details">
         <action
@@ -62,7 +62,7 @@
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.CartFragment"
+        android:name="com.biva.library.app.ui.home.CartFragment"
         android:label="fragment_cart"
         tools:layout="@layout/fragment_cart" >
         <action
@@ -71,7 +71,7 @@
     </fragment>
     <fragment
         android:id="@+id/selectAddressFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.SelectAddressFragment"
+        android:name="com.biva.library.app.ui.home.SelectAddressFragment"
         android:label="fragment_select_address"
         tools:layout="@layout/fragment_select_address" >
         <action
@@ -83,7 +83,7 @@
     </fragment>
     <fragment
         android:id="@+id/addEditAddressFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.AddEditAddressFragment"
+        android:name="com.biva.library.app.ui.home.AddEditAddressFragment"
         android:label="fragment_add_edit_address"
         tools:layout="@layout/fragment_add_edit_address" >
         <argument
@@ -96,7 +96,7 @@
     </fragment>
     <fragment
         android:id="@+id/favoritesFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.FavoritesFragment"
+        android:name="com.biva.library.app.ui.home.FavoritesFragment"
         android:label="fragment_favorites"
         tools:layout="@layout/fragment_favorites" >
         <action
@@ -105,7 +105,7 @@
     </fragment>
     <fragment
         android:id="@+id/selectPaymentFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.SelectPaymentFragment"
+        android:name="com.biva.library.app.ui.home.SelectPaymentFragment"
         android:label="fragment_select_payment"
         tools:layout="@layout/fragment_select_payment" >
         <action
@@ -114,7 +114,7 @@
     </fragment>
     <fragment
         android:id="@+id/orderSuccessFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.OrderSuccessFragment"
+        android:name="com.biva.library.app.ui.home.OrderSuccessFragment"
         android:label="fragment_order_success"
         tools:layout="@layout/fragment_order_success" >
         <action
@@ -123,7 +123,7 @@
     </fragment>
     <fragment
         android:id="@+id/accountFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.AccountFragment"
+        android:name="com.biva.library.app.ui.home.AccountFragment"
         android:label="fragment_account"
         tools:layout="@layout/fragment_account" >
         <action
@@ -138,7 +138,7 @@
     </fragment>
     <fragment
         android:id="@+id/ordersFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.OrdersFragment"
+        android:name="com.biva.library.app.ui.home.OrdersFragment"
         android:label="fragment_orders"
         tools:layout="@layout/fragment_orders" >
         <action
@@ -147,7 +147,7 @@
     </fragment>
     <fragment
         android:id="@+id/orderDetailsFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.OrderDetailsFragment"
+        android:name="com.biva.library.app.ui.home.OrderDetailsFragment"
         android:label="fragment_order_details"
         tools:layout="@layout/fragment_order_details" >
         <argument
@@ -156,7 +156,7 @@
     </fragment>
     <fragment
         android:id="@+id/addressFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.AddressFragment"
+        android:name="com.biva.library.app.ui.home.AddressFragment"
         android:label="fragment_address"
         tools:layout="@layout/fragment_address" >
         <action
@@ -165,7 +165,7 @@
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.vishalgaur.shoppingapp.ui.home.ProfileFragment"
+        android:name="com.biva.library.app.ui.home.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>
