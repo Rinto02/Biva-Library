@@ -1,17 +1,17 @@
-package com.vishalgaur.shoppingapp.data.source.remote
+package com.biva.library.app.data.source.remote
 
 import android.util.Log
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.UserDataSource
-import com.vishalgaur.shoppingapp.data.utils.EmailMobileData
-import com.vishalgaur.shoppingapp.data.utils.OrderStatus
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.source.UserDataSource
+import com.biva.library.app.data.utils.EmailMobileData
+import com.biva.library.app.data.utils.OrderStatus
 import kotlinx.coroutines.tasks.await
 
 class AuthRemoteDataSource : UserDataSource {

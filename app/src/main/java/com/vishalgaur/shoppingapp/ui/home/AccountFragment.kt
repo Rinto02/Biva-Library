@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.databinding.FragmentAccountBinding
-import com.vishalgaur.shoppingapp.ui.loginSignup.LoginSignupActivity
-import com.vishalgaur.shoppingapp.viewModels.HomeViewModel
+import com.biva.library.app.R
+import com.biva.library.app.databinding.FragmentAccountBinding
+import com.biva.library.app.ui.loginSignup.LoginSignupActivity
+import com.biva.library.app.viewModels.HomeViewModel
 
 private const val TAG = "AccountFragment"
 

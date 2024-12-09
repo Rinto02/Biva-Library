@@ -1,14 +1,14 @@
-package com.vishalgaur.shoppingapp.data.source.repository
+package com.biva.library.app.data.source.repository
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.core.net.toUri
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
-import com.vishalgaur.shoppingapp.ERR_UPLOAD
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.source.FakeProductsDataSource
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.getOrAwaitValue
+import com.biva.library.app.ERR_UPLOAD
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.source.FakeProductsDataSource
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.getOrAwaitValue
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.async
 import kotlinx.coroutines.test.runBlockingTest

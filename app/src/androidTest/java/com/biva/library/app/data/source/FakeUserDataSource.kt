@@ -1,10 +1,10 @@
-package com.vishalgaur.shoppingapp.data.source
+package com.biva.library.app.data.source
 
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.utils.EmailMobileData
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.utils.EmailMobileData
 
 class FakeUserDataSource(private var uData: UserData?) : UserDataSource {
 

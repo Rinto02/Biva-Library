@@ -1,15 +1,15 @@
-package com.vishalgaur.shoppingapp.viewModels
+package com.biva.library.app.viewModels
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.vishalgaur.shoppingapp.ServiceLocator
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.source.FakeAuthRepository
-import com.vishalgaur.shoppingapp.data.source.repository.AuthRepoInterface
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.getOrAwaitValue
+import com.biva.library.app.ServiceLocator
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.source.FakeAuthRepository
+import com.biva.library.app.data.source.repository.AuthRepoInterface
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.getOrAwaitValue
 import org.hamcrest.Matchers.`is`
 import org.junit.After
 import org.junit.Before

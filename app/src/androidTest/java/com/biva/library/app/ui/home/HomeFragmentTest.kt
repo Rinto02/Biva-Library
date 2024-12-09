@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.view.View
@@ -21,14 +21,14 @@ import androidx.test.espresso.matcher.RootMatchers.isDialog
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.internal.runner.junit4.statement.UiThreadStatement.runOnUiThread
-import com.vishalgaur.shoppingapp.*
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.FakeAuthRepository
-import com.vishalgaur.shoppingapp.data.source.FakeProductsRepository
-import com.vishalgaur.shoppingapp.data.source.repository.AuthRepoInterface
-import com.vishalgaur.shoppingapp.data.source.repository.ProductsRepoInterface
+import com.biva.library.app.*
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.source.FakeAuthRepository
+import com.biva.library.app.data.source.FakeProductsRepository
+import com.biva.library.app.data.source.repository.AuthRepoInterface
+import com.biva.library.app.data.source.repository.ProductsRepoInterface
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking

@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.viewModels
+package com.biva.library.app.viewModels
 
 import android.app.Application
 import android.util.Log
@@ -7,18 +7,18 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.vishalgaur.shoppingapp.ShoppingApplication
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.repository.AuthRepository
-import com.vishalgaur.shoppingapp.data.utils.AddObjectStatus
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.getAddressId
-import com.vishalgaur.shoppingapp.isPhoneValid
-import com.vishalgaur.shoppingapp.isZipCodeValid
-import com.vishalgaur.shoppingapp.ui.AddAddressViewErrors
+import com.biva.library.app.ShoppingApplication
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.source.repository.AuthRepository
+import com.biva.library.app.data.utils.AddObjectStatus
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.getAddressId
+import com.biva.library.app.isPhoneValid
+import com.biva.library.app.isZipCodeValid
+import com.biva.library.app.ui.AddAddressViewErrors
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 

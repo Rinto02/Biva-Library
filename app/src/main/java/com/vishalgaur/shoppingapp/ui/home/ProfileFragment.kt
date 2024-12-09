@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.databinding.FragmentProfileBinding
-import com.vishalgaur.shoppingapp.viewModels.HomeViewModel
+import com.biva.library.app.R
+import com.biva.library.app.databinding.FragmentProfileBinding
+import com.biva.library.app.viewModels.HomeViewModel
 
 class ProfileFragment : Fragment() {
 

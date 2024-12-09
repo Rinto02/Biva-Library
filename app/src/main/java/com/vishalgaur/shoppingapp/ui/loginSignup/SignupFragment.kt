@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.loginSignup
+package com.biva.library.app.ui.loginSignup
 
 import android.text.SpannableString
 import android.text.Spanned
@@ -7,12 +7,12 @@ import android.text.style.ClickableSpan
 import android.view.View
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
-import com.vishalgaur.shoppingapp.EMAIL_ERROR_TEXT
-import com.vishalgaur.shoppingapp.MOB_ERROR_TEXT
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.utils.SignUpErrors
-import com.vishalgaur.shoppingapp.databinding.FragmentSignupBinding
-import com.vishalgaur.shoppingapp.ui.SignUpViewErrors
+import com.biva.library.app.EMAIL_ERROR_TEXT
+import com.biva.library.app.MOB_ERROR_TEXT
+import com.biva.library.app.R
+import com.biva.library.app.data.utils.SignUpErrors
+import com.biva.library.app.databinding.FragmentSignupBinding
+import com.biva.library.app.ui.SignUpViewErrors
 
 class SignupFragment : LoginSignupBaseFragment<FragmentSignupBinding>() {
 

@@ -1,13 +1,13 @@
-package com.vishalgaur.shoppingapp.ui
+package com.biva.library.app.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.ui.loginSignup.LoginSignupActivity
+import com.biva.library.app.R
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.ui.loginSignup.LoginSignupActivity
 
 class LaunchActivity : AppCompatActivity() {
 

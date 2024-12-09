@@ -1,12 +1,12 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.databinding.LayoutOrderSummaryCardBinding
+import com.biva.library.app.R
+import com.biva.library.app.data.UserData
+import com.biva.library.app.databinding.LayoutOrderSummaryCardBinding
 import java.time.Month
 import java.util.*
 

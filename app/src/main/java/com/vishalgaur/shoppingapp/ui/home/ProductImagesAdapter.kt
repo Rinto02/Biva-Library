@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.vishalgaur.shoppingapp.databinding.ImagesItemBinding
+import com.biva.library.app.databinding.ImagesItemBinding
 
 class ProductImagesAdapter(private val context: Context, private val images: List<String>) :
 	RecyclerView.Adapter<ProductImagesAdapter.ViewHolder>() {

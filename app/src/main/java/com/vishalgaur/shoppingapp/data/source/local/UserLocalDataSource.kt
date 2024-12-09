@@ -1,10 +1,10 @@
-package com.vishalgaur.shoppingapp.data.source.local
+package com.biva.library.app.data.source.local
 
 import android.util.Log
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.Result.*
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.UserDataSource
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.Result.*
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.source.UserDataSource
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

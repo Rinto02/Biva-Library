@@ -1,8 +1,8 @@
-package com.vishalgaur.shoppingapp
+package com.biva.library.app
 
 import android.app.Application
-import com.vishalgaur.shoppingapp.data.source.repository.AuthRepoInterface
-import com.vishalgaur.shoppingapp.data.source.repository.ProductsRepoInterface
+import com.biva.library.app.data.source.repository.AuthRepoInterface
+import com.biva.library.app.data.source.repository.ProductsRepoInterface
 
 class ShoppingApplication : Application() {
 	val authRepository: AuthRepoInterface

@@ -1,11 +1,11 @@
-package com.vishalgaur.shoppingapp.data.source.local
+package com.biva.library.app.data.source.local
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.vishalgaur.shoppingapp.data.Product
+import com.biva.library.app.data.Product
 
 @Dao
 interface ProductsDao {

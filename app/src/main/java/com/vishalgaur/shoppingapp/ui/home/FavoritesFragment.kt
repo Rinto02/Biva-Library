@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.util.Log
@@ -9,12 +9,12 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.databinding.FragmentFavoritesBinding
-import com.vishalgaur.shoppingapp.ui.RecyclerViewPaddingItemDecoration
-import com.vishalgaur.shoppingapp.viewModels.HomeViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.databinding.FragmentFavoritesBinding
+import com.biva.library.app.ui.RecyclerViewPaddingItemDecoration
+import com.biva.library.app.viewModels.HomeViewModel
 
 private const val TAG = "FavoritesFragment"
 

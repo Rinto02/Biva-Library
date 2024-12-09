@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.util.Log
@@ -6,9 +6,9 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.databinding.ActivityMainBinding
+import com.biva.library.app.R
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.databinding.ActivityMainBinding
 
 private const val TAG = "MainActivity"
 

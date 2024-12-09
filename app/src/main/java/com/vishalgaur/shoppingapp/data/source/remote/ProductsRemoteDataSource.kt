@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.data.source.remote
+package com.biva.library.app.data.source.remote
 
 import android.net.Uri
 import android.util.Log
@@ -9,11 +9,11 @@ import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.ktx.storage
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
-import com.vishalgaur.shoppingapp.data.source.ProductDataSource
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
+import com.biva.library.app.data.source.ProductDataSource
 import kotlinx.coroutines.tasks.await
 
 class ProductsRemoteDataSource : ProductDataSource {

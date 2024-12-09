@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.loginSignup
+package com.biva.library.app.ui.loginSignup
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.viewbinding.ViewBinding
-import com.vishalgaur.shoppingapp.ui.MyOnFocusChangeListener
-import com.vishalgaur.shoppingapp.viewModels.AuthViewModel
+import com.biva.library.app.ui.MyOnFocusChangeListener
+import com.biva.library.app.viewModels.AuthViewModel
 
 abstract class LoginSignupBaseFragment<VBinding : ViewBinding> : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.data.source
+package com.biva.library.app.data.source
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
@@ -6,13 +6,13 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.repository.AuthRepoInterface
-import com.vishalgaur.shoppingapp.data.utils.EmailMobileData
-import com.vishalgaur.shoppingapp.data.utils.SignUpErrors
-import com.vishalgaur.shoppingapp.data.utils.UserType
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.source.repository.AuthRepoInterface
+import com.biva.library.app.data.utils.EmailMobileData
+import com.biva.library.app.data.utils.SignUpErrors
+import com.biva.library.app.data.utils.UserType
 
 class FakeAuthRepository(private val sessionManager: ShoppingAppSessionManager) :
 	AuthRepoInterface {

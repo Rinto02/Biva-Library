@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.content.Context
 import android.graphics.Paint
@@ -10,12 +10,12 @@ import android.widget.ImageView
 import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.databinding.LayoutHomeAdBinding
-import com.vishalgaur.shoppingapp.databinding.ProductsListItemBinding
-import com.vishalgaur.shoppingapp.getOfferPercentage
+import com.biva.library.app.R
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.databinding.LayoutHomeAdBinding
+import com.biva.library.app.databinding.ProductsListItemBinding
+import com.biva.library.app.getOfferPercentage
 
 class ProductAdapter(proList: List<Any>, userLikes: List<String>, private val context: Context) :
 	RecyclerView.Adapter<RecyclerView.ViewHolder>() {

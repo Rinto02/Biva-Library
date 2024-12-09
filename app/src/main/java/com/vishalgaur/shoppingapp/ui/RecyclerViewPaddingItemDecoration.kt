@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui
+package com.biva.library.app.ui
 
 import android.content.Context
 import android.graphics.Rect

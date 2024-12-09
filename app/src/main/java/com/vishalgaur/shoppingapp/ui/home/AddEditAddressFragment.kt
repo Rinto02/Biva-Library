@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.util.Log
@@ -12,14 +12,14 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.textfield.TextInputLayout
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.utils.AddObjectStatus
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.data.utils.getISOCountriesMap
-import com.vishalgaur.shoppingapp.databinding.FragmentAddEditAddressBinding
-import com.vishalgaur.shoppingapp.ui.AddAddressViewErrors
-import com.vishalgaur.shoppingapp.ui.MyOnFocusChangeListener
-import com.vishalgaur.shoppingapp.viewModels.AddEditAddressViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.utils.AddObjectStatus
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.data.utils.getISOCountriesMap
+import com.biva.library.app.databinding.FragmentAddEditAddressBinding
+import com.biva.library.app.ui.AddAddressViewErrors
+import com.biva.library.app.ui.MyOnFocusChangeListener
+import com.biva.library.app.viewModels.AddEditAddressViewModel
 import java.util.*
 import kotlin.properties.Delegates
 

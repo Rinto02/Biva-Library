@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -19,14 +19,14 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.utils.ProductCategories
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.databinding.FragmentHomeBinding
-import com.vishalgaur.shoppingapp.ui.MyOnFocusChangeListener
-import com.vishalgaur.shoppingapp.ui.RecyclerViewPaddingItemDecoration
-import com.vishalgaur.shoppingapp.viewModels.HomeViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.utils.ProductCategories
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.databinding.FragmentHomeBinding
+import com.biva.library.app.ui.MyOnFocusChangeListener
+import com.biva.library.app.ui.RecyclerViewPaddingItemDecoration
+import com.biva.library.app.viewModels.HomeViewModel
 import kotlinx.coroutines.*
 
 

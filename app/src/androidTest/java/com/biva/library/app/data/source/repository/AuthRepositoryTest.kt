@@ -1,16 +1,16 @@
-package com.vishalgaur.shoppingapp.data.source.repository
+package com.biva.library.app.data.source.repository
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
 import androidx.test.internal.runner.junit4.statement.UiThreadStatement.runOnUiThread
 import com.google.firebase.FirebaseApp
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.FakeUserDataSource
-import com.vishalgaur.shoppingapp.data.utils.SignUpErrors
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.source.FakeUserDataSource
+import com.biva.library.app.data.utils.SignUpErrors
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.hamcrest.Matchers.`is`

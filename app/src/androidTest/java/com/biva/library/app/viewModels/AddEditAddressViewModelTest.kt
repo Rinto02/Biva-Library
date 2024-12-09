@@ -1,17 +1,17 @@
-package com.vishalgaur.shoppingapp.viewModels
+package com.biva.library.app.viewModels
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.vishalgaur.shoppingapp.ServiceLocator
-import com.vishalgaur.shoppingapp.ShoppingApplication
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.source.FakeAuthRepository
-import com.vishalgaur.shoppingapp.data.source.repository.AuthRepoInterface
-import com.vishalgaur.shoppingapp.getOrAwaitValue
-import com.vishalgaur.shoppingapp.ui.AddAddressViewErrors
+import com.biva.library.app.ServiceLocator
+import com.biva.library.app.ShoppingApplication
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.source.FakeAuthRepository
+import com.biva.library.app.data.source.repository.AuthRepoInterface
+import com.biva.library.app.getOrAwaitValue
+import com.biva.library.app.ui.AddAddressViewErrors
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
 import org.hamcrest.Matchers.*

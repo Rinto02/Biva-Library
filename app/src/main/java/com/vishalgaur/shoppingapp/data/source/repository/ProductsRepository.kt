@@ -1,15 +1,15 @@
-package com.vishalgaur.shoppingapp.data.source.repository
+package com.biva.library.app.data.source.repository
 
 import android.net.Uri
 import android.util.Log
 import androidx.core.net.toUri
 import androidx.lifecycle.LiveData
-import com.vishalgaur.shoppingapp.ERR_UPLOAD
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.Result.*
-import com.vishalgaur.shoppingapp.data.source.ProductDataSource
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
+import com.biva.library.app.ERR_UPLOAD
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.Result.*
+import com.biva.library.app.data.source.ProductDataSource
+import com.biva.library.app.data.utils.StoreDataStatus
 import kotlinx.coroutines.async
 import kotlinx.coroutines.supervisorScope
 import java.util.*

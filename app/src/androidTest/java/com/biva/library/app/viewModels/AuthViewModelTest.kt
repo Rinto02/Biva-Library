@@ -1,12 +1,12 @@
-package com.vishalgaur.shoppingapp.viewModels
+package com.biva.library.app.viewModels
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.vishalgaur.shoppingapp.getOrAwaitValue
-import com.vishalgaur.shoppingapp.ui.LoginViewErrors
-import com.vishalgaur.shoppingapp.ui.SignUpViewErrors
+import com.biva.library.app.getOrAwaitValue
+import com.biva.library.app.ui.LoginViewErrors
+import com.biva.library.app.ui.SignUpViewErrors
 import org.hamcrest.Matchers.*
 import org.junit.Before
 import org.junit.Rule

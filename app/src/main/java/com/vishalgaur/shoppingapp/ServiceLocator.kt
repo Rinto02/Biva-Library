@@ -1,19 +1,19 @@
-package com.vishalgaur.shoppingapp
+package com.biva.library.app
 
 import android.content.Context
 import androidx.annotation.VisibleForTesting
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.source.ProductDataSource
-import com.vishalgaur.shoppingapp.data.source.UserDataSource
-import com.vishalgaur.shoppingapp.data.source.local.ProductsLocalDataSource
-import com.vishalgaur.shoppingapp.data.source.local.ShoppingAppDatabase
-import com.vishalgaur.shoppingapp.data.source.local.UserLocalDataSource
-import com.vishalgaur.shoppingapp.data.source.remote.AuthRemoteDataSource
-import com.vishalgaur.shoppingapp.data.source.remote.ProductsRemoteDataSource
-import com.vishalgaur.shoppingapp.data.source.repository.AuthRepoInterface
-import com.vishalgaur.shoppingapp.data.source.repository.AuthRepository
-import com.vishalgaur.shoppingapp.data.source.repository.ProductsRepoInterface
-import com.vishalgaur.shoppingapp.data.source.repository.ProductsRepository
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.source.ProductDataSource
+import com.biva.library.app.data.source.UserDataSource
+import com.biva.library.app.data.source.local.ProductsLocalDataSource
+import com.biva.library.app.data.source.local.ShoppingAppDatabase
+import com.biva.library.app.data.source.local.UserLocalDataSource
+import com.biva.library.app.data.source.remote.AuthRemoteDataSource
+import com.biva.library.app.data.source.remote.ProductsRemoteDataSource
+import com.biva.library.app.data.source.repository.AuthRepoInterface
+import com.biva.library.app.data.source.repository.AuthRepository
+import com.biva.library.app.data.source.repository.ProductsRepoInterface
+import com.biva.library.app.data.source.repository.ProductsRepository
 
 object ServiceLocator {
 	private var database: ShoppingAppDatabase? = null

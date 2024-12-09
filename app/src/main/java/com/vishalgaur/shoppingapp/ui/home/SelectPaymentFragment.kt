@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.util.Log
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.databinding.FragmentSelectPaymentBinding
-import com.vishalgaur.shoppingapp.viewModels.OrderViewModel
+import com.biva.library.app.R
+import com.biva.library.app.databinding.FragmentSelectPaymentBinding
+import com.biva.library.app.viewModels.OrderViewModel
 
 private const val TAG = "SelectMethodFragment"
 

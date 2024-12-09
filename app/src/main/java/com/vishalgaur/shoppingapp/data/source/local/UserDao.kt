@@ -1,7 +1,7 @@
-package com.vishalgaur.shoppingapp.data.source.local
+package com.biva.library.app.data.source.local
 
 import androidx.room.*
-import com.vishalgaur.shoppingapp.data.UserData
+import com.biva.library.app.data.UserData
 
 @Dao
 interface UserDao {

@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.data
+package com.biva.library.app.data
 
 import android.os.Parcelable
 import androidx.room.Entity

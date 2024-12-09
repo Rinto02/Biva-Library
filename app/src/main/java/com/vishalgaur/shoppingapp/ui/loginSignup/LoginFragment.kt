@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.loginSignup
+package com.biva.library.app.ui.loginSignup
 
 import android.text.SpannableString
 import android.text.Spanned
@@ -7,11 +7,11 @@ import android.text.style.ClickableSpan
 import android.view.View
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
-import com.vishalgaur.shoppingapp.MOB_ERROR_TEXT
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.utils.LogInErrors
-import com.vishalgaur.shoppingapp.databinding.FragmentLoginBinding
-import com.vishalgaur.shoppingapp.ui.LoginViewErrors
+import com.biva.library.app.MOB_ERROR_TEXT
+import com.biva.library.app.R
+import com.biva.library.app.data.utils.LogInErrors
+import com.biva.library.app.databinding.FragmentLoginBinding
+import com.biva.library.app.ui.LoginViewErrors
 
 class LoginFragment : LoginSignupBaseFragment<FragmentLoginBinding>() {
 	override fun setViewBinding(): FragmentLoginBinding {

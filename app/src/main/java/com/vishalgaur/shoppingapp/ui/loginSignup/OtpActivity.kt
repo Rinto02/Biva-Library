@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.loginSignup
+package com.biva.library.app.ui.loginSignup
 
 import android.app.Application
 import android.os.Bundle
@@ -7,13 +7,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.snackbar.Snackbar
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.databinding.ActivityOtpBinding
-import com.vishalgaur.shoppingapp.shouldBypassOTPValidation
-import com.vishalgaur.shoppingapp.ui.OTPStatus
-import com.vishalgaur.shoppingapp.ui.launchHome
-import com.vishalgaur.shoppingapp.viewModels.OtpViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.UserData
+import com.biva.library.app.databinding.ActivityOtpBinding
+import com.biva.library.app.shouldBypassOTPValidation
+import com.biva.library.app.ui.OTPStatus
+import com.biva.library.app.ui.launchHome
+import com.biva.library.app.viewModels.OtpViewModel
 
 class OtpActivity : AppCompatActivity() {
 	private lateinit var binding: ActivityOtpBinding

@@ -1,10 +1,10 @@
-package com.vishalgaur.shoppingapp.data.source
+package com.biva.library.app.data.source
 
 import android.net.Uri
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.Result
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.Result
 
 interface ProductDataSource {
 

@@ -1,14 +1,14 @@
-package com.vishalgaur.shoppingapp.data.source
+package com.biva.library.app.data.source
 
 import android.net.Uri
 import androidx.core.net.toUri
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
 
 class FakeProductsDataSource(private var products: MutableList<Product>? = mutableListOf()) :
 	ProductDataSource {

@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.content.res.ColorStateList
 import android.graphics.Color
@@ -16,15 +16,15 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.chip.Chip
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.utils.AddProductErrors
-import com.vishalgaur.shoppingapp.data.utils.ShoeColors
-import com.vishalgaur.shoppingapp.data.utils.ShoeSizes
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.databinding.FragmentAddEditProductBinding
-import com.vishalgaur.shoppingapp.ui.AddProductViewErrors
-import com.vishalgaur.shoppingapp.ui.MyOnFocusChangeListener
-import com.vishalgaur.shoppingapp.viewModels.AddEditProductViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.utils.AddProductErrors
+import com.biva.library.app.data.utils.ShoeColors
+import com.biva.library.app.data.utils.ShoeSizes
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.databinding.FragmentAddEditProductBinding
+import com.biva.library.app.ui.AddProductViewErrors
+import com.biva.library.app.ui.MyOnFocusChangeListener
+import com.biva.library.app.viewModels.AddEditProductViewModel
 import kotlin.properties.Delegates
 
 private const val TAG = "AddProductFragment"

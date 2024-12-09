@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.util.Log
@@ -11,13 +11,13 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.databinding.FragmentCartBinding
-import com.vishalgaur.shoppingapp.databinding.LayoutCircularLoaderBinding
-import com.vishalgaur.shoppingapp.databinding.LayoutPriceCardBinding
-import com.vishalgaur.shoppingapp.viewModels.OrderViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.databinding.FragmentCartBinding
+import com.biva.library.app.databinding.LayoutCircularLoaderBinding
+import com.biva.library.app.databinding.LayoutPriceCardBinding
+import com.biva.library.app.viewModels.OrderViewModel
 
 private const val TAG = "CartFragment"
 

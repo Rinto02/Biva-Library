@@ -1,9 +1,9 @@
-package com.vishalgaur.shoppingapp.data.utils
+package com.biva.library.app.data.utils
 
 import androidx.room.TypeConverter
 import com.google.common.reflect.TypeToken
 import com.google.gson.Gson
-import com.vishalgaur.shoppingapp.data.UserData
+import com.biva.library.app.data.UserData
 
 class ObjectListTypeConvertor {
 	@TypeConverter

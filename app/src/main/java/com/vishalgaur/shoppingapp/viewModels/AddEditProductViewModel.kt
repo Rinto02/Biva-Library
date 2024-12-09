@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.viewModels
+package com.biva.library.app.viewModels
 
 import android.app.Application
 import android.net.Uri
@@ -8,16 +8,16 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.vishalgaur.shoppingapp.ERR_UPLOAD
-import com.vishalgaur.shoppingapp.ShoppingApplication
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.Result.Error
-import com.vishalgaur.shoppingapp.data.Result.Success
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
-import com.vishalgaur.shoppingapp.data.utils.AddProductErrors
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.getProductId
-import com.vishalgaur.shoppingapp.ui.AddProductViewErrors
+import com.biva.library.app.ERR_UPLOAD
+import com.biva.library.app.ShoppingApplication
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.Result.Error
+import com.biva.library.app.data.Result.Success
+import com.biva.library.app.data.ShoppingAppSessionManager
+import com.biva.library.app.data.utils.AddProductErrors
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.getProductId
+import com.biva.library.app.ui.AddProductViewErrors
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 

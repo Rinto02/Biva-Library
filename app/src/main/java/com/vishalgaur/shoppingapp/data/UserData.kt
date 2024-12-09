@@ -1,12 +1,12 @@
-package com.vishalgaur.shoppingapp.data
+package com.biva.library.app.data
 
 import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
-import com.vishalgaur.shoppingapp.data.utils.ObjectListTypeConvertor
-import com.vishalgaur.shoppingapp.data.utils.OrderStatus
-import com.vishalgaur.shoppingapp.data.utils.UserType
+import com.biva.library.app.data.utils.ObjectListTypeConvertor
+import com.biva.library.app.data.utils.OrderStatus
+import com.biva.library.app.data.utils.UserType
 import kotlinx.parcelize.Parcelize
 import java.util.*
 import kotlin.collections.ArrayList

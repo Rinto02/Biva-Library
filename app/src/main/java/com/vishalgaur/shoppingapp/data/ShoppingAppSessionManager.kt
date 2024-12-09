@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.data
+package com.biva.library.app.data
 
 import android.content.Context
 import android.content.SharedPreferences

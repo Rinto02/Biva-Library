@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.databinding.FragmentOrderSuccessBinding
-import com.vishalgaur.shoppingapp.viewModels.OrderViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.databinding.FragmentOrderSuccessBinding
+import com.biva.library.app.viewModels.OrderViewModel
 
 class OrderSuccessFragment : Fragment() {
 

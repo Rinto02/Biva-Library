@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.loginSignup
+package com.biva.library.app.ui.loginSignup
 
 import androidx.fragment.app.testing.FragmentScenario
 import androidx.fragment.app.testing.launchFragmentInContainer
@@ -16,11 +16,11 @@ import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.internal.runner.junit4.statement.UiThreadStatement.runOnUiThread
 import androidx.test.platform.app.InstrumentationRegistry
-import com.vishalgaur.shoppingapp.EMAIL_ERROR_TEXT
-import com.vishalgaur.shoppingapp.MOB_ERROR_TEXT
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.clickClickableSpan
-import com.vishalgaur.shoppingapp.data.ShoppingAppSessionManager
+import com.biva.library.app.EMAIL_ERROR_TEXT
+import com.biva.library.app.MOB_ERROR_TEXT
+import com.biva.library.app.R
+import com.biva.library.app.clickClickableSpan
+import com.biva.library.app.data.ShoppingAppSessionManager
 import org.hamcrest.Matchers.`is`
 import org.junit.Assert.assertEquals
 import org.junit.Before
@@ -51,7 +51,7 @@ class SignupFragmentTest {
 	@Test
 	fun useAppContext() {
 		val context = InstrumentationRegistry.getInstrumentation().targetContext
-		assertEquals("com.vishalgaur.shoppingapp", context.packageName)
+		assertEquals("com.biva.library.app", context.packageName)
 	}
 
 	@Test

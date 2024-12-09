@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.viewModels
+package com.biva.library.app.viewModels
 
 import android.app.Application
 import android.util.Log
@@ -13,10 +13,10 @@ import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthOptions
 import com.google.firebase.auth.PhoneAuthProvider
-import com.vishalgaur.shoppingapp.ShoppingApplication
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.shouldBypassOTPValidation
-import com.vishalgaur.shoppingapp.ui.OTPStatus
+import com.biva.library.app.ShoppingApplication
+import com.biva.library.app.data.UserData
+import com.biva.library.app.shouldBypassOTPValidation
+import com.biva.library.app.ui.OTPStatus
 import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit
 

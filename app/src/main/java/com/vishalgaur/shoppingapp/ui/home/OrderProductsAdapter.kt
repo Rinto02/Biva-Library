@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.Product
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.databinding.CartListItemBinding
+import com.biva.library.app.R
+import com.biva.library.app.data.Product
+import com.biva.library.app.data.UserData
+import com.biva.library.app.databinding.CartListItemBinding
 
 class OrderProductsAdapter(
 	private val context: Context, items: List<UserData.CartItem>,

@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.content.Context
 import android.util.Log
@@ -7,10 +7,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.card.MaterialCardView
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.databinding.LayoutAddressCardBinding
-import com.vishalgaur.shoppingapp.ui.getCompleteAddress
+import com.biva.library.app.R
+import com.biva.library.app.data.UserData
+import com.biva.library.app.databinding.LayoutAddressCardBinding
+import com.biva.library.app.ui.getCompleteAddress
 
 private const val TAG = "AddressAdapter"
 

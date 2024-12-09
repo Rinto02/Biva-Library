@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.os.Bundle
 import android.util.Log
@@ -9,13 +9,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.utils.OrderStatus
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.databinding.FragmentOrderDetailsBinding
-import com.vishalgaur.shoppingapp.ui.getCompleteAddress
-import com.vishalgaur.shoppingapp.viewModels.HomeViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.utils.OrderStatus
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.databinding.FragmentOrderDetailsBinding
+import com.biva.library.app.ui.getCompleteAddress
+import com.biva.library.app.viewModels.HomeViewModel
 import java.time.Month
 import java.util.*
 

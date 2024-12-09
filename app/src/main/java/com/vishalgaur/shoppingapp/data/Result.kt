@@ -1,6 +1,6 @@
-package com.vishalgaur.shoppingapp.data
+package com.biva.library.app.data
 
-import com.vishalgaur.shoppingapp.data.Result.Success
+import com.biva.library.app.data.Result.Success
 
 /**
  * A generic class that holds a value with its loading status.

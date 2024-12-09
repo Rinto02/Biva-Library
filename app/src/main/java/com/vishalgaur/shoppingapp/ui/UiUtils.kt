@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui
+package com.biva.library.app.ui
 
 import android.app.Activity
 import android.content.Context
@@ -13,9 +13,9 @@ import android.view.inputmethod.InputMethodManager
 import androidx.annotation.ColorInt
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.utils.getISOCountriesMap
-import com.vishalgaur.shoppingapp.ui.home.MainActivity
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.utils.getISOCountriesMap
+import com.biva.library.app.ui.home.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

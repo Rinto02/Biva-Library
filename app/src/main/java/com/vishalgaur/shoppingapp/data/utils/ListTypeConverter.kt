@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.data.utils
+package com.biva.library.app.data.utils
 
 import androidx.room.TypeConverter
 

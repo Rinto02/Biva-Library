@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.annotation.SuppressLint
 import android.util.Log
@@ -7,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.card.MaterialCardView
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.databinding.LayoutListItemBinding
+import com.biva.library.app.R
+import com.biva.library.app.databinding.LayoutListItemBinding
 
 private const val TAG = "PayByAdapter"
 

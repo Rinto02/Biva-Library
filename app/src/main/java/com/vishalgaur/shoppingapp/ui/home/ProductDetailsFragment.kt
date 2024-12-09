@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.ui.home
+package com.biva.library.app.ui.home
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -22,15 +22,15 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.PagerSnapHelper
-import com.vishalgaur.shoppingapp.R
-import com.vishalgaur.shoppingapp.data.utils.AddObjectStatus
-import com.vishalgaur.shoppingapp.data.utils.ShoeColors
-import com.vishalgaur.shoppingapp.data.utils.ShoeSizes
-import com.vishalgaur.shoppingapp.data.utils.StoreDataStatus
-import com.vishalgaur.shoppingapp.databinding.FragmentProductDetailsBinding
-import com.vishalgaur.shoppingapp.ui.AddItemErrors
-import com.vishalgaur.shoppingapp.ui.DotsIndicatorDecoration
-import com.vishalgaur.shoppingapp.viewModels.ProductViewModel
+import com.biva.library.app.R
+import com.biva.library.app.data.utils.AddObjectStatus
+import com.biva.library.app.data.utils.ShoeColors
+import com.biva.library.app.data.utils.ShoeSizes
+import com.biva.library.app.data.utils.StoreDataStatus
+import com.biva.library.app.databinding.FragmentProductDetailsBinding
+import com.biva.library.app.ui.AddItemErrors
+import com.biva.library.app.ui.DotsIndicatorDecoration
+import com.biva.library.app.viewModels.ProductViewModel
 
 class ProductDetailsFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.vishalgaur.shoppingapp.viewModels
+package com.biva.library.app.viewModels
 
 import android.app.Application
 import android.util.Log
@@ -6,13 +6,13 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.vishalgaur.shoppingapp.*
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.utils.LogInErrors
-import com.vishalgaur.shoppingapp.data.utils.SignUpErrors
-import com.vishalgaur.shoppingapp.data.utils.UserType
-import com.vishalgaur.shoppingapp.ui.LoginViewErrors
-import com.vishalgaur.shoppingapp.ui.SignUpViewErrors
+import com.biva.library.app.*
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.utils.LogInErrors
+import com.biva.library.app.data.utils.SignUpErrors
+import com.biva.library.app.data.utils.UserType
+import com.biva.library.app.ui.LoginViewErrors
+import com.biva.library.app.ui.SignUpViewErrors
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 

@@ -1,12 +1,12 @@
-package com.vishalgaur.shoppingapp.data.source.repository
+package com.biva.library.app.data.source.repository
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.utils.SignUpErrors
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.utils.SignUpErrors
 
 interface AuthRepoInterface {
 	suspend fun refreshData()

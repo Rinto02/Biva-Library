@@ -1,8 +1,8 @@
-package com.vishalgaur.shoppingapp.data.source
+package com.biva.library.app.data.source
 
-import com.vishalgaur.shoppingapp.data.Result
-import com.vishalgaur.shoppingapp.data.UserData
-import com.vishalgaur.shoppingapp.data.utils.EmailMobileData
+import com.biva.library.app.data.Result
+import com.biva.library.app.data.UserData
+import com.biva.library.app.data.utils.EmailMobileData
 
 interface UserDataSource {
 	suspend fun addUser(userData: UserData)
