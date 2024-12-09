@@ -8,7 +8,7 @@ android {
     buildToolsVersion "34.0.0"
 
     defaultConfig {
-        applicationId "com.example.myapp"
+        applicationId "com.biva.library.app"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 1
