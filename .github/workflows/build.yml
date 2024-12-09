@@ -1,4 +1,4 @@
-name: Biva Library
+name: Build CI
 
 on:
   push:
@@ -37,10 +37,11 @@ jobs:
       run: ./gradlew assembleRelease
 
     - name: Upload build artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: app
         path: app/build/outputs/apk/release/
+        if-no-files-found: error
 
   release:
     needs: build
@@ -51,9 +52,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Download build artifacts
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: app
+        path: app
 
     - name: Create GitHub Release
       id: create_release
